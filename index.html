@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>LigaRobotov - Роботы для помощи инвалидам</title>
+<title>LigaRobotov - место, где даже ваш код работает быстрее, чем рабы на хлопковых плантациях!</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto+Flex:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -43,14 +43,15 @@
   /* Image variables */
   .hero-image { background-image: linear-gradient(135deg, rgba(10,25,47,0.8) 0%, rgba(10,25,47,0.4) 100%), url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.4&auto=format&fit=crop&w=1600&q=80'); }
   .about-image { background-image: linear-gradient(135deg, rgba(10,25,47,0.8) 0%, rgba(10,25,47,0.4) 100%), url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.4&auto=format&fit=crop&w=1600&q=80'); }
-  .team-member:nth-child(1) .member-image { background-image: url('https://randomuser.me/api/portraits/men/32.jpg'); }
-  .team-member:nth-child(2) .member-image { background-image: url('https://randomuser.me/api/portraits/women/44.jpg'); }
-  .team-member:nth-child(3) .member-image { background-image: url('https://randomuser.me/api/portraits/men/22.jpg'); }
-  .team-member:nth-child(4) .member-image { background-image: url('https://randomuser.me/api/portraits/women/63.jpg'); }
-  .team-member:nth-child(5) .member-image { background-image: url('https://randomuser.me/api/portraits/men/45.jpg'); }
-  .team-member:nth-child(6) .member-image { background-image: url('https://randomuser.me/api/portraits/women/28.jpg'); }
-  .team-member:nth-child(7) .member-image { background-image: url('https://randomuser.me/api/portraits/men/19.jpg'); }
-  .team-member:nth-child(8) .member-image { background-image: url('https://randomuser.me/api/portraits/women/51.jpg'); }
+  .team-member:nth-child(1) .member-image { background-image: url('img/team-1.jpg'); }
+  .team-member:nth-child(2) .member-image { background-image: url('img/team-2.jpg'); }
+  .team-member:nth-child(3) .member-image { background-image: url('img/team-3.jpg'); }
+  .team-member:nth-child(4) .member-image { background-image: url('img/team-4.jpg'); }
+  .team-member:nth-child(5) .member-image { background-image: url('img/team-5.jpg'); }
+  .team-member:nth-child(6) .member-image { background-image: url('img/team-6.jpg'); }
+  .team-member:nth-child(7) .member-image { background-image: url('img/team-7.jpg'); }
+  .team-member:nth-child(8) .member-image { background-image: url('img/team-8.jpg'); }
+  .team-member:nth-child(9) .member-image { background-image: url('img/team-9.jpg'); }
   .gallery-item:nth-child(1) { background-image: linear-gradient(135deg, rgba(10,25,47,0.3) 0%, rgba(10,25,47,0.1) 100%), url('https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.4&auto=format&fit=crop&w=1600&q=80'); }
   .gallery-item:nth-child(2) { background-image: linear-gradient(135deg, rgba(10,25,47,0.3) 0%, rgba(10,25,47,0.1) 100%), url('https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?ixlib=rb-4.0.4&auto=format&fit=crop&w=1600&q=80'); }
   .gallery-item:nth-child(3) { background-image: linear-gradient(135deg, rgba(10,25,47,0.3) 0%, rgba(10,25,47,0.1) 100%), url('https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.4&auto=format&fit=crop&w=1600&q=80'); }
@@ -58,7 +59,7 @@
   .gallery-item:nth-child(5) { background-image: linear-gradient(135deg, rgba(10,25,47,0.3) 0%, rgba(10,25,47,0.1) 100%), url('https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.4&auto=format&fit=crop&w=1600&q=80'); }
   .gallery-item:nth-child(6) { background-image: linear-gradient(135deg, rgba(10,25,47,0.3) 0%, rgba(10,25,47,0.1) 100%), url('https://images.unsplash.com/photo-1601134467661-3d775b99c35b?ixlib=rb-4.0.4&auto=format&fit=crop&w=1600&q=80'); }
 
-  /* Base styles */
+  /* Base styles */ 
   h1, h2, h3, h4 {
     font-family: var(--font-heading);
     font-weight: var(--font-bold);
@@ -1070,11 +1071,13 @@
       <div class="member-info">
         <h3>Владислав</h3>
         <p>Гендиректор</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
+      </div>
+    </div>
+    <div class="team-member">
+      <div class="member-image"></div>
+      <div class="member-info">
+        <h3>Арсений</h3>
+        <p>Ведущий программист</p>
       </div>
     </div>
     <div class="team-member">
@@ -1082,83 +1085,48 @@
       <div class="member-info">
         <h3>Иван</h3>
         <p>Программист ИИ</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
       </div>
     </div>
     <div class="team-member">
       <div class="member-image"></div>
       <div class="member-info">
         <h3>Матвей</h3>
-        <p>Дизайнер интерфейсов</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="team-member">
-      <div class="member-image"></div>
-      <div class="member-info">
-        <h3>Стёпа</h3>
-        <p>Маркетолог</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
+        <p>Веб-программист</p>
       </div>
     </div>
     <div class="team-member">
       <div class="member-image"></div>
       <div class="member-info">
         <h3>Костя</h3>
-        <p>Инженер-механик</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="team-member">
-      <div class="member-image"></div>
-      <div class="member-info">
-        <h3>Суслов Михаил</h3>
-        <p>Тестировщик</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
+        <p>Главный инженер</p>
       </div>
     </div>
     <div class="team-member">
       <div class="member-image"></div>
       <div class="member-info">
         <h3>Руслан</h3>
-        <p>Дизайнер UI</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
+        <p>Инженер-конструктор</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <div class="member-image"></div>
+      <div class="member-info">
+        <h3>Степа</h3>
+        <p>Маркетолог</p>
+      </div>
+    </div>
+    <div class="team-member">
+      <div class="member-image"></div>
+      <div class="member-info">
+        <h3>Миша</h3>
+        <p>Тестировщик</p>
       </div>
     </div>
     <div class="team-member">
       <div class="member-image"></div>
       <div class="member-info">
         <h3>Илья</h3>
-        <p>Менеджер проектов</p>
-        <div class="social-links">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fas fa-envelope"></i></a>
-        </div>
+        <p>Технический аналитик</p>
       </div>
     </div>
   </div>
@@ -1345,12 +1313,15 @@
       <a href="#contact">Контакты</a>
     </div>
     <div class="social-icons">
-      <a href="#"><i class="fab fa-facebook-f"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-linkedin-in"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="https://www.youtube.com/ligarobotov" target="_blank" rel="noopener">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://t.me/+79655013141" target="_blank" rel="noopener">
+        <i class="fab fa-telegram"></i>
+      </a>
+      <a href="https://www.facebook.com/ligarobotovekb/" target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
     </div>
     <p class="copyright">© 2025 LigaRobotov. Все права защищены.</p>
   </div>
